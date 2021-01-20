@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
@@ -118,8 +119,8 @@ public class MapActivity extends AppCompatActivity implements MapView{
             latLngBuilder.include(new LatLng(allLat.get(i), allLng.get(i)));
         }
         binding.map.getMapAsync(googleMap -> {
-           googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLngBuilder.build().getCenter(),
-                   Config.MAP_ZOOM));
+            CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngBounds(latLngBuilder.build(), Config.MAP_PADDING);
+            googleMap.moveCamera(cameraUpdate);
         });
     }
 
