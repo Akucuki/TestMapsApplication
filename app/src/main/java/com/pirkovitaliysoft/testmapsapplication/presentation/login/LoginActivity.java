@@ -43,11 +43,14 @@ public class LoginActivity extends AppCompatActivity implements LoginView{
 
     @Override
     public void showErrorToast(ErrorMessages messageType) {
-        String errorMessage = null;
+        String errorMessage;
         final Resources res = getResources();
         switch (messageType){
             case EMPTY_FIELDS:
                 errorMessage = res.getString(R.string.error_empty_fields);
+                break;
+            case SHORT_PASSWORD:
+                errorMessage = res.getString(R.string.error_short_password);
                 break;
             case NO_INTERNET:
                 errorMessage = res.getString(R.string.error_no_internet);
@@ -55,6 +58,8 @@ public class LoginActivity extends AppCompatActivity implements LoginView{
             case INVALID_EMAIL:
                 errorMessage = res.getString(R.string.error_invalid_email);
                 break;
+            default:
+                errorMessage = res.getString(R.string.error_default);
         }
         Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show();
     }
@@ -66,7 +71,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView{
 
     @Override
     public String getPasswordFieldText() {
-        return binding.passwordField.toString();
+        return binding.passwordField.getText().toString();
     }
 
     @Override

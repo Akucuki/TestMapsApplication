@@ -5,7 +5,9 @@
     <string name="login_caption">Log in</string>
 
     <!-- Error messages -->
+    <string name="error_default">Error! Something went wrong, please try again.</string>
     <string name="error_empty_fields">Fields cannot be empty!</string>
+    <string name="error_short_password">Password must be longer than 5 characters!</string>
     <string name="error_no_internet">Cannot grab data! Check your internet connection!</string>
     <string name="error_invalid_email">Please enter valid email!</string>
 </resources>

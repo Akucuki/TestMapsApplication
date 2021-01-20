@@ -65,7 +65,7 @@ public class MapActivity extends AppCompatActivity implements MapView{
 
     @Override
     public void showErrorToast(ErrorMessages errorMessage) {
-        String message = "";
+        String message;
         final Resources res = getResources();
         switch (errorMessage){
             case NO_INTERNET:
@@ -73,6 +73,9 @@ public class MapActivity extends AppCompatActivity implements MapView{
                 break;
             case EMPTY_FIELDS:
                 message = res.getString(R.string.error_empty_fields);
+                break;
+            default:
+                message = res.getString(R.string.error_default);
         }
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }

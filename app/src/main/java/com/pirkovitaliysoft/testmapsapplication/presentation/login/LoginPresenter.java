@@ -20,7 +20,7 @@ public class LoginPresenter {
 
     public void onLoginButtonClick(){
         String email, password;
-        email = view.getEmailFieldText();
+        email = view.getEmailFieldText().trim();
         password = view.getPasswordFieldText();
 
         if(email.length() == 0 || password.length() == 0){
@@ -30,6 +30,11 @@ public class LoginPresenter {
 
         if(!isEmail(email)){
             view.showErrorToast(ErrorMessages.INVALID_EMAIL);
+            return;
+        }
+
+        if(password.trim().length() < 5){
+            view.showErrorToast(ErrorMessages.SHORT_PASSWORD);
             return;
         }
 
