@@ -1,10 +1,10 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.login;
+package com.pirkovitaliysoft.testmapsapplication.login;
 
 import android.util.Patterns;
 
 import androidx.annotation.Nullable;
 
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
 
 public class LoginPresenter {
     @Nullable

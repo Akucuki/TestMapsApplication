@@ -1,4 +1,4 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.common;
+package com.pirkovitaliysoft.testmapsapplication.common;
 
 import android.content.res.Resources;
 

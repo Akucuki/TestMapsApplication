@@ -1,4 +1,4 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.map;
+package com.pirkovitaliysoft.testmapsapplication.map;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
@@ -17,11 +17,11 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.pirkovitaliysoft.testmapsapplication.R;
 import com.pirkovitaliysoft.testmapsapplication.databinding.ActivityMapBinding;
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.Config;
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
-import com.pirkovitaliysoft.testmapsapplication.presentation.map.recycler.RecyclerViewAdapter;
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlaceEntity;
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlacesViewModel;
+import com.pirkovitaliysoft.testmapsapplication.common.Config;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.map.recycler.RecyclerViewAdapter;
+import com.pirkovitaliysoft.testmapsapplication.model.PlaceEntity;
+import com.pirkovitaliysoft.testmapsapplication.model.PlacesViewModel;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.map;
+package com.pirkovitaliysoft.testmapsapplication.map;
 
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlaceEntity;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.model.PlaceEntity;
 
 import java.util.List;
 

@@ -1,9 +1,6 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.login;
+package com.pirkovitaliysoft.testmapsapplication.login;
 
-import android.app.Activity;
-import android.widget.TextView;
-
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
 
 public interface LoginView {
     void hideActionBar(boolean hide);

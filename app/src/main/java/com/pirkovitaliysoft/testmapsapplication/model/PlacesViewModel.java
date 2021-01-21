@@ -1,9 +1,9 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.model;
+package com.pirkovitaliysoft.testmapsapplication.model;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.pirkovitaliysoft.testmapsapplication.presentation.map.Presenter;
+import com.pirkovitaliysoft.testmapsapplication.map.Presenter;
 
 import java.util.List;
 

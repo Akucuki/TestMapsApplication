@@ -1,8 +1,6 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.map;
+package com.pirkovitaliysoft.testmapsapplication.map;
 
-import androidx.lifecycle.MutableLiveData;
-
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlaceEntity;
+import com.pirkovitaliysoft.testmapsapplication.model.PlaceEntity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.map.recycler;
+package com.pirkovitaliysoft.testmapsapplication.map.recycler;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pirkovitaliysoft.testmapsapplication.R;
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlaceEntity;
+import com.pirkovitaliysoft.testmapsapplication.model.PlaceEntity;
 
 import java.util.List;
 

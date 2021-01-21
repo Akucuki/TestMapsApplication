@@ -1,4 +1,4 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.model;
+package com.pirkovitaliysoft.testmapsapplication.model;
 
 import java.util.List;
 

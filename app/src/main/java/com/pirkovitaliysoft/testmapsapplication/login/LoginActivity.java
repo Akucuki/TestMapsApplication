@@ -1,18 +1,16 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.login;
+package com.pirkovitaliysoft.testmapsapplication.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.pirkovitaliysoft.testmapsapplication.R;
 import com.pirkovitaliysoft.testmapsapplication.databinding.ActivityLoginBinding;
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
-import com.pirkovitaliysoft.testmapsapplication.presentation.map.MapActivity;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.map.MapActivity;
 
 public class LoginActivity extends AppCompatActivity implements LoginView{
 

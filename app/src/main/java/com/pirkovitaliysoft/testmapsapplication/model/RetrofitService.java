@@ -1,6 +1,6 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.model;
+package com.pirkovitaliysoft.testmapsapplication.model;
 
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.Config;
+import com.pirkovitaliysoft.testmapsapplication.common.Config;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

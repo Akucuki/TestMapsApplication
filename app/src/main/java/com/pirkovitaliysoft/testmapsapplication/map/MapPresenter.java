@@ -1,9 +1,9 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.map;
+package com.pirkovitaliysoft.testmapsapplication.map;
 
 import androidx.annotation.Nullable;
 
-import com.pirkovitaliysoft.testmapsapplication.presentation.common.ErrorMessages;
-import com.pirkovitaliysoft.testmapsapplication.presentation.model.PlaceEntity;
+import com.pirkovitaliysoft.testmapsapplication.common.ErrorMessages;
+import com.pirkovitaliysoft.testmapsapplication.model.PlaceEntity;
 
 import java.util.ArrayList;
 import java.util.List;

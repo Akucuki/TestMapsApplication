@@ -1,4 +1,4 @@
-package com.pirkovitaliysoft.testmapsapplication.presentation.model;
+package com.pirkovitaliysoft.testmapsapplication.model;
 
 public class PlaceEntity {
     private int id;
